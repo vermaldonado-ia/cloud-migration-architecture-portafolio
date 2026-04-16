@@ -2,94 +2,117 @@
 
 ## 🎯 Enfoque
 
-Toda migración cloud implica riesgos que deben ser identificados y gestionados desde el inicio.
+La migración de una plataforma ERP desde un datacenter local hacia la nube implica riesgos relevantes, especialmente al tratarse de una solución crítica para clientes del sector de comercio exterior.
 
-El objetivo no es eliminarlos completamente, sino controlarlos mediante una estrategia adecuada.
+El foco no es eliminar completamente los riesgos, sino identificarlos y gestionarlos de forma activa durante todo el proceso.
 
 ---
 
 ## ⚠️ Riesgos principales
 
-### 1. Subestimación de dependencias
+### 1. Impacto en clientes críticos (clientes VIP)
 
-Los sistemas legacy suelen tener integraciones no documentadas, lo que puede generar problemas durante la migración.
+Durante la migración existe el riesgo de afectar la operación de clientes con alta dependencia del sistema.
+
+**Impacto:**
+
+* Interrupción de procesos operativos
+* Pérdida de confianza del cliente
+* Riesgos contractuales
+
+**Mitigación:**
+
+* Migración progresiva por cliente
+* Validación en producción de forma controlada
+* Monitoreo continuo post migración
+* Planes de contingencia
+
+---
+
+### 2. Dependencias no identificadas
+
+La plataforma ERP presenta integraciones con múltiples actores, algunas no completamente documentadas.
 
 **Impacto:**
 
 * Fallas inesperadas
 * Interrupción de servicios
-* Retrasos en el proyecto
+* Retrasos en la migración
 
 **Mitigación:**
 
-* Levantamiento detallado de dependencias
-* Validaciones progresivas
+* Levantamiento detallado de integraciones
+* Validación por módulos
 * Pruebas en cada fase
+* Acompañamiento de equipos técnicos
 
 ---
 
-### 2. Interrupción del servicio
+### 3. Interrupción del servicio durante la transición
 
-Durante la migración, existe riesgo de afectar la continuidad operativa de clientes.
+El cambio de entorno puede generar inestabilidad si no se controla adecuadamente.
 
 **Impacto:**
 
-* Pérdida de confianza
-* Impacto en clientes críticos
-* Riesgos contractuales
+* Caídas del sistema
+* Problemas en transacciones
+* Impacto en usuarios finales
 
 **Mitigación:**
 
-* Migración gradual
 * Estrategia híbrida (cloud + datacenter)
-* Planes de contingencia
+* Migración gradual
+* Validación antes de cada paso
+* Plan de rollback
 
 ---
 
-### 3. Complejidad técnica mayor a la esperada
+### 4. Complejidad mayor a la estimada
 
-La migración puede requerir más esfuerzo del planificado.
+La migración puede presentar desafíos técnicos y operativos no previstos inicialmente.
 
 **Impacto:**
 
 * Aumento de tiempos
+* Ajustes en planificación
 * Sobrecostos
-* Desalineación con planificación
 
 **Mitigación:**
 
+* Roadmap flexible
 * Priorización por fases
-* Ajuste continuo del roadmap
 * Validación temprana de supuestos
+* Ajuste continuo del plan
 
 ---
 
-### 4. Falta de adopción organizacional
+### 5. Resistencia al cambio
 
-Los equipos pueden tener resistencia al cambio o falta de conocimiento en el nuevo modelo.
+Los equipos operativos pueden enfrentar dificultades en la adopción del nuevo modelo.
 
 **Impacto:**
 
-* Baja eficiencia operativa
 * Errores en la operación
-* Retrasos en la implementación
+* Baja eficiencia inicial
+* Retrasos en la estabilización
 
 **Mitigación:**
 
 * Capacitación de equipos
 * Acompañamiento en la transición
-* Comunicación clara de beneficios
+* Comunicación clara del proceso
+* Soporte continuo
 
 ---
 
-### 5. Problemas de seguridad
+### 6. Riesgos de seguridad en la transición
 
-La transición a cloud puede exponer vulnerabilidades si no se gestiona correctamente.
+El paso desde un entorno controlado (datacenter) a cloud puede generar nuevas superficies de riesgo.
 
 **Impacto:**
 
-* Riesgos de acceso indebido
-* Exposición de datos
+* Accesos indebidos
+* Exposición de información
 * Incidentes de seguridad
 
 **Mitigación:**
@@ -100,14 +123,14 @@ La transición a cloud puede exponer vulnerabilidades si no se gestiona correcta
 
 ---
 
-### 6. Falta de visibilidad del sistema
+### 7. Falta de visibilidad del sistema
 
-Sin monitoreo adecuado, es difícil detectar problemas en el nuevo entorno.
+Durante la migración, la falta de monitoreo adecuado puede dificultar la detección de problemas.
 
 **Impacto:**
 
-* Dificultad para detectar fallas
-* Tiempo elevado de resolución
+* Dificultad para identificar fallas
+* Mayor tiempo de resolución
 * Impacto en usuarios
 
 **Mitigación:**
@@ -120,22 +143,22 @@ Sin monitoreo adecuado, es difícil detectar problemas en el nuevo entorno.
 
 ## 🔄 Gestión de riesgos
 
-La gestión de riesgos se aborda de forma continua durante toda la migración:
+La gestión de riesgos se realizó de forma continua:
 
 * Identificación temprana
 * Evaluación de impacto
 * Definición de mitigaciones
-* Seguimiento en cada fase
+* Seguimiento en cada fase del roadmap
 
 ---
 
 ## 🎯 Resultado esperado
 
-Una migración controlada, donde los riesgos son gestionados activamente, reduciendo el impacto en la operación y asegurando la continuidad del servicio.
+Una migración controlada, donde los riesgos son gestionados activamente, minimizando el impacto en clientes y asegurando la continuidad del servicio.
 
 ---
 
 ## 🧠 Conclusión
 
-La identificación y gestión de riesgos es clave para el éxito de cualquier proceso de migración cloud, especialmente en plataformas críticas con alta dependencia operativa.
+La gestión de riesgos fue un componente clave de la migración, especialmente considerando la criticidad de los clientes y la necesidad de mantener la operación sin interrupciones.
 
