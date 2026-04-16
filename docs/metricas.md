@@ -2,83 +2,91 @@
 
 ## 🎯 Enfoque
 
-La migración cloud no se considera exitosa solo por completarse, sino por el impacto positivo que genera en la operación, la velocidad de entrega y la estabilidad del sistema.
+La migración de la plataforma ERP no se evaluó únicamente por su implementación técnica, sino por el impacto generado en la operación, la estabilidad del sistema y la capacidad de respuesta al negocio.
 
-Por ello, es clave definir métricas que permitan evaluar resultados de forma objetiva.
+Por ello, se definieron métricas orientadas a validar resultados reales.
 
 ---
 
-## 📊 Categorías de métricas
+## 📊 Métricas definidas
 
 ### 🚀 1. Métricas de delivery
 
-Permiten medir la velocidad y eficiencia en la entrega de cambios.
+Permiten evaluar la mejora en la velocidad de entrega tras la migración.
 
-* Frecuencia de despliegue
-* Tiempo de implementación de cambios
-* Lead time desde desarrollo a producción
+**Aplicación en el contexto:**
+
+* Reducción en tiempos de despliegue de nuevas versiones
+* Mejora en la frecuencia de liberaciones
+* Disminución del tiempo entre cambios y disponibilidad en producción
 
 ---
 
-### 🛠️ 2. Métricas de calidad
+### 🛠️ 2. Métricas de estabilidad
 
-Permiten evaluar la estabilidad del sistema tras la migración.
+Permiten medir la confiabilidad del sistema en producción.
 
-* Tasa de errores en producción
-* Número de incidentes post despliegue
-* Porcentaje de fallas por release
+**Aplicación en el contexto:**
+
+* Reducción de incidentes post despliegue
+* Disminución de caídas del sistema
+* Mejora en la estabilidad durante la operación diaria
 
 ---
 
 ### ⚙️ 3. Métricas operacionales
 
-Permiten medir el comportamiento del sistema en producción.
+Permiten evaluar el comportamiento del sistema en el nuevo entorno.
 
-* Disponibilidad del sistema
-* Tiempo de recuperación ante fallas
-* Uso de recursos
-* Capacidad de escalabilidad
+**Aplicación en el contexto:**
+
+* Mejora en la disponibilidad del sistema
+* Reducción en tiempos de recuperación ante fallas
+* Capacidad de escalar frente a aumento de demanda
+* Estabilidad durante la migración de clientes
 
 ---
 
 ### 📈 4. Métricas de negocio
 
-Permiten evaluar el impacto de la migración en la operación.
+Permiten medir el impacto directo en la operación de clientes.
 
-* Tiempo de respuesta a nuevas necesidades
-* Capacidad de incorporar nuevos clientes
-* Mejora en tiempos de atención
-* Reducción de fricción operativa
+**Aplicación en el contexto:**
+
+* Capacidad de incorporar nuevos clientes sin afectar la operación
+* Mejora en tiempos de respuesta del sistema ERP
+* Reducción de interrupciones en procesos críticos
+* Mayor continuidad operativa para clientes VIP
 
 ---
 
 ## 🎯 Objetivo de las métricas
 
-Estas métricas permiten:
+Las métricas permiten:
 
 * Validar el éxito de la migración
 * Detectar oportunidades de mejora
+* Asegurar estabilidad del sistema
 * Medir impacto real en el negocio
-* Tomar decisiones informadas
 
 ---
 
 ## ⚠️ Consideraciones clave
 
-* No todas las métricas deben medirse desde el inicio
-* Es importante priorizar las más relevantes
-* Deben ser entendidas por equipos técnicos y de negocio
-* Deben ser monitoreadas de forma continua
+* No todas las métricas se midieron desde el inicio
+* Se priorizaron las métricas más críticas para la operación
+* Se realizó seguimiento continuo durante la migración
+* Se ajustaron métricas según evolución del proyecto
 
 ---
 
 ## 🎯 Resultado esperado
 
-Una visión clara del impacto de la migración, permitiendo asegurar que la nueva arquitectura cumple con los objetivos definidos.
+Una visión clara del impacto de la migración, permitiendo asegurar que la nueva arquitectura mejora la operación, la estabilidad y la capacidad de crecimiento del sistema.
 
 ---
 
 ## 🧠 Conclusión
 
-Las métricas son fundamentales para validar que la migración cloud no solo fue implementada, sino que genera valor real para el negocio y mejora la operación del sistema.
+Las métricas permitieron validar que la migración no solo fue exitosa desde el punto de vista técnico, sino que generó mejoras reales en la operación del ERP y en la experiencia de los clientes.
 
