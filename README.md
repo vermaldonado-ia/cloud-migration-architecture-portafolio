@@ -21,6 +21,8 @@ Diseñar una estrategia de migración que permita evolucionar una plataforma leg
 
 ## 🧩 Diagrama de arquitectura
 
+Este diagrama muestra la evolución desde un modelo basado en datacenter local hacia una arquitectura cloud híbrida, asegurando continuidad operativa.
+
 ![Arquitectura](./diagrams/arquitectura.png)
 
 ---
