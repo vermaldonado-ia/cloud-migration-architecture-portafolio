@@ -2,109 +2,132 @@
 
 ## 🎯 Enfoque del roadmap
 
-La migración se estructura en fases progresivas, permitiendo avanzar de forma controlada, reducir riesgos y asegurar continuidad operativa.
+La migración se estructuró como un proceso progresivo, priorizando la continuidad operativa de clientes críticos (agencias de aduana) y evitando cualquier interrupción del servicio.
 
-Cada fase genera valor y permite validar el avance antes de continuar.
+Se optó por un modelo híbrido, donde la nube se convierte en el entorno principal y el datacenter local se mantiene como respaldo.
 
 ---
 
 ## 🧩 Fases de implementación
 
-### 🟢 Fase 1: Diagnóstico
+### 🟢 Fase 1: Levantamiento y diagnóstico
 
-Objetivo: entender el estado actual de la plataforma.
+Objetivo: entender completamente la plataforma ERP en operación.
 
-* Levantamiento de componentes
-* Identificación de dependencias
-* Evaluación de riesgos
-* Priorización inicial
-
----
-
-### 🟡 Fase 2: Diseño objetivo
-
-Objetivo: definir cómo debería evolucionar la arquitectura.
-
-* Definición de arquitectura futura
-* Identificación de dominios funcionales
-* Definición de estrategia de migración
-* Alineación con necesidades del negocio
+* Identificación de módulos del ERP
+* Levantamiento de integraciones con clientes
+* Análisis de dependencias críticas
+* Identificación de clientes de mayor impacto (clientes VIP)
+* Evaluación de riesgos de migración
 
 ---
 
-### 🟠 Fase 3: Preparación
+### 🟡 Fase 2: Definición de estrategia
 
-Objetivo: habilitar condiciones para la migración.
+Objetivo: definir cómo se abordará la migración sin afectar la operación.
 
-* Configuración de entorno cloud
+* Definición de modelo híbrido (cloud + datacenter)
+* Priorización de módulos a migrar
+* Definición de estrategia incremental
+* Alineación con equipos técnicos y de negocio
+* Definición de criterios de éxito
+
+---
+
+### 🟠 Fase 3: Preparación del entorno cloud
+
+Objetivo: habilitar el entorno necesario para comenzar la migración.
+
+* Configuración de infraestructura base en la nube
 * Definición de accesos y seguridad
-* Preparación de monitoreo básico
-* Definición de procesos de despliegue
+* Preparación de monitoreo inicial
+* Validación de conectividad con el datacenter
+* Preparación de ambientes de prueba
 
 ---
 
-### 🔵 Fase 4: Migración inicial
+### 🔵 Fase 4: Migración inicial (bajo riesgo)
 
-Objetivo: iniciar la transición con bajo riesgo.
+Objetivo: validar la estrategia en un entorno controlado.
 
-* Migración de componentes menos críticos
-* Validación en entorno cloud
-* Ajustes iniciales
+* Migración de componentes menos críticos del ERP
+* Pruebas funcionales en cloud
+* Validación con usuarios internos
+* Ajustes técnicos y operativos
 * Monitoreo de comportamiento
 
 ---
 
-### 🟣 Fase 5: Migración progresiva
+### 🟣 Fase 5: Migración de clientes críticos
 
-Objetivo: avanzar con componentes más relevantes.
+Objetivo: migrar progresivamente clientes con mayor impacto.
 
-* Migración de módulos principales
-* Ajustes de integración
-* Validación continua
-* Asegurar estabilidad del sistema
+* Selección controlada de clientes VIP
+* Migración gradual por cliente
+* Validación de operación en producción
+* Monitoreo continuo
+* Ajustes según comportamiento real
 
 ---
 
-### 🔴 Fase 6: Optimización
+### 🔴 Fase 6: Operación híbrida estabilizada
 
-Objetivo: estabilizar y mejorar la operación.
+Objetivo: consolidar el modelo cloud como principal.
 
-* Ajustes de performance
-* Optimización de costos
-* Refinamiento de arquitectura
+* Operación principal en cloud
+* Datacenter local como respaldo
+* Validación de continuidad operativa
+* Ajuste de procesos de soporte
+* Seguimiento de estabilidad
+
+---
+
+### ⚫ Fase 7: Optimización
+
+Objetivo: mejorar el modelo una vez estabilizado.
+
+* Optimización de performance
+* Ajustes de costos
+* Mejora de arquitectura
 * Consolidación del modelo operativo
+* Identificación de oportunidades de mejora
 
 ---
 
 ## 📌 Criterios de priorización
 
-Para definir el orden de migración se consideran:
+Para definir el orden de migración se consideraron:
 
-* Impacto en el negocio
-* Complejidad técnica
-* Nivel de riesgo
-* Dependencias entre componentes
-* Valor de negocio esperado
+* impacto en clientes
+* criticidad del módulo
+* complejidad técnica
+* dependencia con otros sistemas
+* riesgo operativo
 
 ---
 
 ## ⚠️ Consideraciones clave
 
-* Validar cada fase antes de avanzar
-* Mantener comunicación con stakeholders
-* Evitar cambios masivos sin control
-* Ajustar el roadmap según resultados
-* Priorizar continuidad operativa
+* Se evitó un enfoque tipo “big bang”
+* Se priorizó continuidad operativa en todo momento
+* Se validó cada fase antes de avanzar
+* Se trabajó en conjunto con equipos técnicos y de negocio
+* Se ajustó el roadmap en base a resultados reales
 
 ---
 
 ## 🎯 Resultado esperado
 
-Un plan de migración claro, estructurado y ejecutable, que permita evolucionar la plataforma de forma progresiva, controlando riesgos y generando valor en cada etapa.
+Una migración controlada que permite:
+
+* reducir riesgos operativos
+* asegurar continuidad para clientes críticos
+* evolucionar la plataforma de forma progresiva
+* adoptar cloud sin impacto negativo en la operación
 
 ---
 
 ## 🧠 Conclusión
 
-El roadmap permite transformar una estrategia en un plan concreto, facilitando la ejecución y asegurando una migración ordenada y sostenible.
+El roadmap refleja un enfoque realista de migración, donde la prioridad no es solo modernizar la tecnología, sino asegurar la continuidad del negocio durante todo el proceso.
 
