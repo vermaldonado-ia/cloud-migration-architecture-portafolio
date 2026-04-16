@@ -19,6 +19,12 @@ Diseñar una estrategia de migración que permita evolucionar una plataforma leg
 
 ---
 
+## 🧩 Diagrama de arquitectura
+
+![Arquitectura](./diagrams/arquitectura.png)
+
+---
+
 ## 🧩 Escenario abordado
 
 Se modela un caso basado en experiencia real:
