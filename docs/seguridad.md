@@ -2,94 +2,102 @@
 
 ## 🎯 Enfoque
 
-La seguridad es un componente clave en cualquier proceso de migración cloud, especialmente en plataformas críticas que manejan información sensible.
+La seguridad fue un aspecto clave durante la migración de la plataforma ERP, considerando que se trata de una solución crítica para clientes del sector de comercio exterior, con manejo de información sensible y procesos operativos relevantes.
 
-Debe ser considerada desde el diseño, no como una etapa posterior.
+El enfoque se centró en incorporar seguridad desde el diseño, asegurando control y trazabilidad sin afectar la continuidad operativa.
 
 ---
 
-## 🔐 Principios de seguridad
+## 🔐 Principios de seguridad aplicados
 
-La estrategia de migración incorpora los siguientes principios:
+Durante la migración se consideraron los siguientes principios:
 
 * Control de accesos basado en roles
-* Protección de datos
+* Protección de datos sensibles
 * Segregación de ambientes
-* Trazabilidad de acciones
-* Seguridad desde el diseño
+* Trazabilidad de operaciones
+* Seguridad integrada en cada fase
 
 ---
 
-## 🧩 Controles principales
+## 🧩 Controles implementados
 
 ### 1. Gestión de accesos
 
-Se define un modelo de control de accesos que permita:
+Se definió un modelo de control de accesos para asegurar que cada usuario o equipo tuviera solo los permisos necesarios.
 
-* limitar accesos según rol
-* evitar accesos innecesarios
-* asegurar trazabilidad de acciones
+**Aplicación en el contexto:**
+
+* Accesos diferenciados para equipos técnicos y operativos
+* Restricción de accesos a entornos productivos
+* Control de accesos durante la migración
 
 ---
 
 ### 2. Protección de datos
 
-Se consideran medidas para proteger la información:
+Dado que la plataforma ERP maneja información crítica, se consideraron medidas para proteger los datos.
 
-* manejo seguro de datos sensibles
-* uso de mecanismos de cifrado
-* control de acceso a bases de datos
+**Aplicación en el contexto:**
+
+* Manejo controlado de información de clientes
+* Protección de datos en tránsito y almacenamiento
+* Restricción de acceso a bases de datos
 
 ---
 
 ### 3. Segregación de ambientes
 
-Se separan claramente los entornos:
+Se mantuvo una separación clara entre entornos para evitar impactos cruzados.
 
-* desarrollo
-* pruebas
-* producción
+**Aplicación en el contexto:**
 
-Esto permite reducir riesgos y evitar impactos cruzados.
+* Separación entre desarrollo, pruebas y producción
+* Validación de cambios antes de llegar a producción
+* Reducción de riesgos durante la migración
 
 ---
 
 ### 4. Trazabilidad y monitoreo
 
-Se habilitan mecanismos que permitan:
+Se habilitaron mecanismos para registrar y monitorear la operación.
 
-* registrar acciones relevantes
-* detectar comportamientos anómalos
-* facilitar auditorías
+**Aplicación en el contexto:**
+
+* Registro de acciones relevantes
+* Seguimiento de cambios durante la migración
+* Identificación de comportamientos anómalos
 
 ---
 
 ### 5. Configuración segura
 
-Se establece una base de configuración que permita:
+Se establecieron lineamientos para evitar configuraciones inseguras.
 
-* evitar configuraciones inseguras
-* estandarizar prácticas
-* reducir vulnerabilidades
+**Aplicación en el contexto:**
+
+* Definición de configuraciones base en cloud
+* Validación de accesos y permisos
+* Revisión de configuraciones críticas
 
 ---
 
 ## ⚠️ Consideraciones clave
 
-* La seguridad debe acompañar cada fase de la migración
-* No debe retrasar la implementación, pero sí guiarla
-* Debe ser entendida por todos los equipos involucrados
-* Debe equilibrar control y agilidad
+* La seguridad fue incorporada desde el inicio del proceso
+* Se priorizó equilibrio entre control y agilidad
+* Se evitó generar fricción innecesaria en la operación
+* Se consideró la seguridad como parte del modelo operativo, no como un elemento aislado
 
 ---
 
 ## 🎯 Resultado esperado
 
-Un entorno cloud seguro, controlado y alineado con buenas prácticas, que permita operar la plataforma con confianza y trazabilidad.
+Un entorno cloud seguro, con control de accesos, protección de datos y trazabilidad, que permite operar la plataforma ERP con confianza, sin comprometer la continuidad del negocio.
 
 ---
 
 ## 🧠 Conclusión
 
-La seguridad no es un complemento, sino un pilar fundamental para asegurar el éxito y la sostenibilidad de la migración cloud.
+La seguridad fue un pilar fundamental de la migración, permitiendo asegurar la protección de la información y la estabilidad de la operación en un contexto de alta criticidad.
 
