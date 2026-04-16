@@ -2,113 +2,142 @@
 
 ## 🎯 Enfoque general
 
-La migración hacia la nube se plantea como un proceso progresivo, evitando una reimplementación completa en una sola etapa.
+La migración de la plataforma ERP desde el datacenter local hacia la nube se abordó como un proceso progresivo, priorizando en todo momento la continuidad operativa de los clientes.
 
-El objetivo es reducir riesgos, mantener la continuidad operativa y generar valor de forma incremental.
-
----
-
-## 🔄 Estrategia de migración
-
-Se propone una migración por etapas, basada en los siguientes principios:
-
-* Migrar de forma gradual, no disruptiva
-* Priorizar componentes de menor riesgo
-* Mantener la operación activa durante todo el proceso
-* Validar resultados en cada fase
-* Ajustar la estrategia según aprendizaje
+Dado que se trataba de una plataforma crítica para agencias de aduana, no era viable realizar una migración disruptiva. Por ello, se definió una estrategia incremental con validación continua.
 
 ---
 
-## 🧩 Etapas de la migración
+## 🔄 Estrategia aplicada
 
-### 1. Evaluación inicial
+Se adoptó un enfoque basado en:
 
-Se realiza un levantamiento de la plataforma actual:
+* Migración gradual por componentes y clientes
+* Validación en cada etapa antes de avanzar
+* Operación híbrida (cloud como principal, datacenter como respaldo)
+* Ajuste continuo según comportamiento en producción
 
-* Identificación de componentes
-* Análisis de dependencias
-* Evaluación de criticidad
-* Detección de riesgos
+Este enfoque permitió reducir el riesgo y asegurar estabilidad durante todo el proceso.
 
 ---
 
-### 2. Definición de arquitectura objetivo
+## 🧩 Ejecución de la migración
 
-Se establece el modelo futuro:
+### 1. Levantamiento inicial
 
-* Componentes a migrar
-* Nivel de desacoplamiento esperado
-* Estrategia de operación híbrida
-* Definición de roles y responsabilidades
+Se realizó un análisis completo de la plataforma:
+
+* Identificación de módulos del ERP
+* Levantamiento de integraciones con clientes
+* Identificación de dependencias críticas
+* Priorización de componentes
+
+---
+
+### 2. Definición de estrategia
+
+Se definieron las bases de la migración:
+
+* Modelo híbrido como estrategia principal
+* Priorización de módulos de menor riesgo
+* Definición de criterios de validación
+* Alineación con equipos técnicos y de negocio
 
 ---
 
 ### 3. Preparación del entorno
 
-Antes de migrar, se deben habilitar capacidades base:
+Se habilitó el entorno cloud para soportar la migración:
 
-* Entorno cloud disponible
-* Configuración de accesos y seguridad
-* Monitoreo básico
-* Definición de procesos de despliegue
+* Configuración de infraestructura base
+* Definición de accesos y seguridad
+* Preparación de ambientes de prueba
+* Validación de conectividad con el datacenter
 
 ---
 
-### 4. Migración progresiva
+### 4. Migración controlada
 
-Se inicia la transición por etapas:
+Se inició la migración en un entorno de bajo riesgo:
 
 * Migración de componentes menos críticos
-* Validación funcional en entorno cloud
-* Ajustes según resultados
-* Migración de componentes de mayor impacto
+* Validación funcional en cloud
+* Ajustes técnicos y operativos
+* Monitoreo de comportamiento
 
 ---
 
-### 5. Operación híbrida
+### 5. Migración de clientes
 
-Durante la transición:
+Una vez validada la estrategia:
 
-* La nube actúa como entorno principal
-* El datacenter local se mantiene como respaldo
-* Se asegura continuidad para clientes críticos
+* Migración progresiva de clientes
+* Priorización de clientes VIP
+* Validación en producción
+* Monitoreo continuo
+* Ajustes según resultados reales
 
 ---
 
-### 6. Optimización
+### 6. Operación híbrida
+
+Durante toda la transición:
+
+* La nube operó como entorno principal
+* El datacenter se mantuvo como respaldo
+* Se aseguraron mecanismos de continuidad operativa
+* Se mantuvo monitoreo activo de ambos entornos
+
+---
+
+### 7. Optimización
 
 Una vez estabilizada la migración:
 
-* Ajuste de performance
-* Mejora de costos
+* Ajustes de performance
+* Mejora de procesos operativos
+* Optimización de costos
 * Refinamiento de arquitectura
-* Consolidación del modelo operativo
 
 ---
 
-## ⚠️ Consideraciones clave
+## ⚠️ Decisiones clave
 
-* Evitar migraciones tipo “big bang”
+Durante la migración se tomaron decisiones relevantes:
+
+* Evitar un enfoque tipo “big bang”
 * Priorizar continuidad operativa sobre velocidad
-* Gestionar activamente riesgos y dependencias
-* Involucrar a equipos técnicos y de negocio
-* Validar cada fase antes de avanzar
+* Migrar primero lo menos crítico
+* Validar en producción de forma controlada
+* Mantener siempre un plan de respaldo
 
 ---
 
-## 🎯 Resultado esperado
+## 📌 Factores de éxito
 
-Una migración controlada que permita:
+El éxito de la migración se basó en:
 
-* Reducir riesgos
-* Mantener la operación estable
-* Incorporar mejoras progresivas
-* Evolucionar hacia un modelo más escalable
+* planificación por fases
+* comunicación con stakeholders
+* validación continua
+* gestión activa de riesgos
+* enfoque pragmático
+
+---
+
+## 🎯 Resultado obtenido
+
+La migración permitió:
+
+* reducir dependencia del datacenter local
+* mejorar la escalabilidad del sistema
+* disminuir riesgos operativos
+* mantener continuidad para clientes críticos
+* evolucionar la plataforma sin impacto negativo
 
 ---
 
 ## 🧠 Conclusión
 
-La migración no es solo un cambio tecnológico, sino un proceso de transformación que requiere planificación, control y ejecución progresiva para asegurar el éxito.
+La migración no se abordó como un cambio tecnológico aislado, sino como una transformación controlada del modelo operativo, asegurando estabilidad, continuidad y evolución progresiva del sistema.
 
