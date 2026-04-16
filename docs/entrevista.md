@@ -2,43 +2,47 @@
 
 ## 🎯 Versión corta (30 segundos)
 
-Este repositorio representa cómo abordaría una migración cloud desde una perspectiva de delivery y estrategia.
+Este repositorio está basado en una experiencia real donde participé en la migración de una plataforma ERP desde un datacenter local hacia la nube.
 
-Parte de un escenario real donde una plataforma ERP operaba en un datacenter local, con limitaciones de escalabilidad y riesgo operativo. A partir de eso, propongo una evolución hacia un modelo cloud híbrido, donde la nube actúa como entorno principal y el datacenter queda como respaldo, asegurando continuidad operativa.
+El principal desafío fue asegurar la continuidad operativa de clientes críticos, por lo que se definió una estrategia híbrida, donde la nube operaba como entorno principal y el datacenter se mantenía como respaldo.
 
-La migración está planteada de forma progresiva, con roadmap por fases, gestión de riesgos y métricas para validar el impacto en el negocio.
+La migración se realizó de forma progresiva, validando cada etapa y controlando riesgos, lo que permitió evolucionar la plataforma sin afectar la operación.
 
 ---
 
 ## 🎯 Versión media (1 minuto)
 
-En este repositorio quise reflejar cómo estructuro una iniciativa de migración cloud desde una mirada de transformación, no solo técnica.
+Este repositorio refleja cómo abordé una migración cloud en un contexto real, donde la plataforma ERP operaba completamente desde un datacenter local y presentaba limitaciones en escalabilidad y despliegue.
 
-Parto desde un sistema legacy desplegado en datacenter local, identificando sus principales limitaciones en escalabilidad, despliegue y resiliencia. Luego defino una arquitectura objetivo basada en un modelo cloud híbrido, priorizando continuidad operativa para clientes críticos.
+Uno de los principales focos fue la continuidad operativa, ya que los clientes dependían fuertemente del sistema. Por eso, se definió un modelo híbrido, donde la nube se convirtió en el entorno principal y el datacenter quedó como respaldo.
 
-Lo más importante es la estrategia de migración: no planteo un enfoque tipo “big bang”, sino una transición progresiva, por fases, con validación continua y control de riesgos.
+La migración no se hizo de forma masiva, sino progresiva. Se comenzó con componentes de menor riesgo, luego se avanzó hacia módulos más críticos y finalmente se migraron clientes de forma controlada, validando en producción y monitoreando continuamente.
 
-Además, incorporo aspectos clave como seguridad, gobierno y métricas, para asegurar que la migración no solo se implemente, sino que genere valor real para el negocio.
+Además, se trabajó en gestión de riesgos, seguridad desde el diseño y definición de métricas para asegurar que la migración no solo fuera técnica, sino que generara mejoras reales en la operación.
 
 ---
 
 ## 🎯 Versión larga (respuesta completa)
 
-Este repositorio representa un ejercicio de cómo abordaría una migración cloud en un contexto real, combinando arquitectura, delivery y estrategia.
+Este repositorio representa un caso basado en una experiencia real de migración de una plataforma ERP desde un datacenter local hacia un entorno cloud.
 
-El punto de partida es una plataforma ERP operando en un datacenter local, con desafíos claros en términos de escalabilidad, riesgo operativo y velocidad de evolución. A partir de ese diagnóstico, defino una arquitectura objetivo orientada a cloud, con un enfoque híbrido que permite mantener el datacenter como respaldo.
+El punto de partida era un sistema con alta dependencia de infraestructura física, con limitaciones claras en escalabilidad, tiempos de despliegue y riesgo operativo. Además, se trataba de una plataforma crítica para clientes del sector de comercio exterior, por lo que la continuidad operativa era un factor clave.
 
-El foco principal está en la estrategia de migración, que se plantea de forma incremental. Se prioriza migrar componentes de menor riesgo, validar cada fase y asegurar continuidad operativa en todo momento. Esto evita impactos en clientes críticos y permite ajustar la estrategia en función del aprendizaje.
+A partir de ese contexto, se definió una estrategia de migración basada en un modelo híbrido, donde la nube pasó a ser el entorno principal y el datacenter se mantuvo como respaldo. Esto permitió reducir el riesgo y asegurar continuidad durante toda la transición.
 
-También considero elementos clave como gestión de riesgos, seguridad desde el diseño, gobierno de la arquitectura y métricas de éxito. Esto permite tener control sobre el proceso y medir el impacto de la transformación.
+La migración se abordó de forma incremental. Se comenzó con un levantamiento detallado de la plataforma, identificando dependencias y riesgos. Luego se migraron componentes menos críticos, validando cada etapa antes de avanzar.
 
-En resumen, este repositorio busca demostrar mi capacidad para estructurar y liderar una iniciativa de modernización cloud, alineando tecnología con necesidades de negocio y asegurando una ejecución controlada y sostenible.
+Posteriormente, se realizó la migración progresiva de clientes, priorizando aquellos de mayor impacto. Este proceso incluyó validación en producción, monitoreo continuo y ajustes en función del comportamiento real del sistema.
+
+Durante toda la migración se gestionaron riesgos, se incorporaron prácticas de seguridad y se definieron métricas para medir el impacto en la operación, como estabilidad del sistema, tiempos de respuesta y capacidad de escalar.
+
+En resumen, este repositorio muestra cómo estructurar y liderar una migración cloud desde una perspectiva de delivery, priorizando continuidad operativa, control de riesgos y evolución progresiva del sistema.
 
 ---
 
 ## 💡 Mensaje clave
 
-Este proyecto no busca demostrar implementación técnica, sino capacidad de estructurar una migración cloud desde una perspectiva de negocio, riesgo y delivery.
+Este proyecto demuestra mi capacidad para liderar iniciativas de migración cloud en contextos reales, equilibrando tecnología, negocio y continuidad operativa.
 
 ---
 
@@ -46,8 +50,8 @@ Este proyecto no busca demostrar implementación técnica, sino capacidad de est
 
 Este repositorio puede ser presentado como:
 
-* Ejercicio de arquitectura y estrategia cloud
-* Caso de modernización tecnológica
-* Propuesta de migración basada en experiencia real
+* Experiencia aplicada en migración cloud
+* Caso real de modernización tecnológica
 * Ejemplo de liderazgo en transformación digital
+* Evidencia de gestión de riesgos y continuidad operativa
 
