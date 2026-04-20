@@ -176,6 +176,7 @@ Responsable de:
 * 👉 [Seguridad](./docs/seguridad.md)
 * 👉 [Métricas y Monitoreo](./docs/metricas.md)
 * 👉 [Guía de Entrevista](./docs/entrevista.md)
+* 👉 [Antes vs Después](./docs/impacto.md)
 
 ---
 
