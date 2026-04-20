@@ -60,6 +60,14 @@ Esto generaba un riesgo directo sobre:
 
 ---
 
+## 📖 Historia del Proyecto
+
+La organización enfrentaba pérdidas de información y altos costos operativos debido a un modelo basado en datacenter.
+
+Se definió una estrategia de migración cloud progresiva, priorizando clientes según criticidad, permitiendo reducir riesgos y asegurar continuidad del negocio.
+
+---
+
 ## 🏗️ Arquitectura
 
 ### AS-IS
