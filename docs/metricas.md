@@ -86,6 +86,8 @@ La incorporación de monitoreo y alertamiento permite:
 
 ## 📊 Dashboards de Monitoreo (Referencia)
 
+Los siguientes dashboards representan una vista referencial de la capa de observabilidad definida para la arquitectura objetivo.
+
 ### Dashboard Ejecutivo
 
 ![Dashboard Ejecutivo](../diagrams/dashboard_ejecutivo.png)
