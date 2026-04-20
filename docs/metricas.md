@@ -90,7 +90,7 @@ La incorporación de monitoreo y alertamiento permite:
 
 ![Dashboard Ejecutivo](../diagrams/dashboard_ejecutivo.png)
 
-Vista orientada a negocio, mostrando disponibilidad, incidentes y estado general del servicio.
+Vista orientada a negocio para monitorear disponibilidad, incidentes, clientes migrados y estabilidad general del servicio.
 
 ---
 
@@ -98,12 +98,12 @@ Vista orientada a negocio, mostrando disponibilidad, incidentes y estado general
 
 ![Dashboard Técnico](../diagrams/dashboard_tecnico.png)
 
-Monitoreo de infraestructura, performance y estado de servicios.
+Vista orientada a operación para supervisar performance de infraestructura, red, latencia y estado de instancias.
 
 ---
 
-### Alarmas
+### Alarmas Críticas
 
-![Alarmas](../diagrams/alarmas.png)
+![Alarmas Críticas](../diagrams/alarmas.png)
 
-Configuración de alertas para detección temprana de incidentes críticos.
+Vista de alertamiento operacional para la detección temprana de incidentes críticos post-migración.
