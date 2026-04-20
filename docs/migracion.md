@@ -15,6 +15,8 @@ Consideraciones:
 * Coordinación con clientes
 * Datacenter como respaldo
 
+---
+
 ## 🧠 Enfoque de Migración
 
 Se evitó un enfoque "big bang" debido al alto riesgo operacional, optando por una migración progresiva controlada.
