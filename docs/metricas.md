@@ -106,6 +106,6 @@ Vista orientada a operación para supervisar performance de infraestructura, red
 
 ### Alarmas Críticas
 
-![Alarmas Críticas](../diagrams/alarmas.png)
+![Alarmas Críticas](../diagrams/alarmas_criticas.png)
 
 Vista de alertamiento operacional para la detección temprana de incidentes críticos post-migración.
