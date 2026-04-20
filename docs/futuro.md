@@ -12,3 +12,9 @@ Beneficios:
 * Seguridad
 * Control operativo
 * Soporte a expansión internacional
+
+## 💼 Impacto en el Negocio
+
+- Mayor estabilidad para clientes
+- Reducción de riesgos operativos
+- Capacidad de expansión internacional
