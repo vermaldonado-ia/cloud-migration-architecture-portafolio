@@ -84,3 +84,26 @@ La incorporación de monitoreo y alertamiento permite:
 
 ---
 
+## 📊 Dashboards de Monitoreo (Referencia)
+
+### Dashboard Ejecutivo
+
+![Dashboard Ejecutivo](../diagrams/dashboard_ejecutivo.png)
+
+Vista orientada a negocio, mostrando disponibilidad, incidentes y estado general del servicio.
+
+---
+
+### Dashboard Técnico
+
+![Dashboard Técnico](../diagrams/dashboard_tecnico.png)
+
+Monitoreo de infraestructura, performance y estado de servicios.
+
+---
+
+### Alarmas
+
+![Alarmas](../diagrams/alarmas.png)
+
+Configuración de alertas para detección temprana de incidentes críticos.
