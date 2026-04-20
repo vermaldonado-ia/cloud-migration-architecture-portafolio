@@ -1,3 +1,11 @@
+## 📌 Contexto
+
+En el modelo anterior no existía monitoreo estructurado, lo que dificultaba la detección temprana de incidentes y aumentaba el impacto en clientes.
+
+La nueva arquitectura incorpora una capa de observabilidad basada en CloudWatch.
+
+---
+
 # 📊 Observabilidad, Monitoreo y Métricas de Éxito
 
 Como parte de la arquitectura objetivo, se definió una capa de observabilidad orientada a asegurar la estabilidad operativa post-migración.
