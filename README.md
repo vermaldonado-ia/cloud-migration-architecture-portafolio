@@ -1,70 +1,69 @@
 # ☁️ Cloud Migration Architecture Portafolio
 
-Proyecto que demuestra un caso real de migración de una plataforma ERP de comercio exterior desde un datacenter local hacia una arquitectura cloud híbrida en AWS.
-
-Este repositorio está diseñado para evidenciar capacidades en:
-
-* Cloud Migration Strategy
-* Arquitectura Cloud (AWS)
-* Gestión de riesgos y continuidad operativa
-* Liderazgo de proyectos de transformación tecnológica
+Caso real de migración de una plataforma ERP de comercio exterior desde un datacenter local hacia una arquitectura cloud en AWS, con foco en reducción de riesgo operativo, optimización de costos y habilitación de crecimiento internacional.
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Executive Summary
 
-Demostrar cómo abordar una migración cloud desde una perspectiva integral:
+La organización operaba sobre un datacenter local con altos costos operativos y riesgos críticos de pérdida de información, afectando directamente la continuidad del negocio.
 
-* Negocio
-* Arquitectura
-* Riesgos
-* Ejecución
-* Resultados
+Se diseñó y ejecutó una estrategia de migración cloud escalonada, priorizada por criticidad de clientes, incorporando mejoras en arquitectura, seguridad y gobierno operativo.
+
+El resultado fue una plataforma más estable, escalable y alineada al core del negocio.
 
 ---
 
-## 🧩 Contexto del Caso
+## 🧩 Contexto del Negocio
 
-Se trata de una plataforma ERP logística orientada a la gestión de importaciones y exportaciones, utilizada por agencias de aduana.
+* Industria: Comercio exterior
+* Plataforma: ERP logístico (SaaS)
+* Modelo: Instancias independientes por cliente
 
-El modelo era tipo SaaS (arriendo de plataforma), donde cada cliente operaba sobre una instancia independiente.
+El negocio requería:
+
+* Escalar a nuevos mercados
+* Reducir costos operativos
+* Aumentar confiabilidad del servicio
 
 ---
 
-## ⚠️ Problema
+## ⚠️ Problema Estratégico
 
-La organización operaba con un datacenter local, generando:
-
-* Altos costos operativos (infraestructura, licencias, personal)
+* Infraestructura fuera del core del negocio
 * Pérdida de información de clientes
-* Multas por incidentes
-* Falta de ambientes (DEV / QA / PROD)
-* Cambios en producción sin control
+* Multas por incidentes operativos
+* Falta de ambientes controlados
+* Cambios en producción sin gobierno
 
-El negocio requería enfocarse en su core: el software, no la infraestructura.
+Esto generaba un riesgo directo sobre:
+
+* continuidad operacional
+* reputación
+* crecimiento internacional
 
 ---
 
 ## 🏗️ Arquitectura
 
-### AS-IS (Actual)
+### AS-IS
 
-* Máquinas virtuales por cliente
-* Base de datos independiente por cliente
-* Alta fragmentación de versiones
-* Infraestructura on-premise
+* Datacenter local
+* Máquina virtual por cliente
+* Base de datos independiente
+* Alta fragmentación
 
-### TO-BE (Objetivo)
+### TO-BE
 
 * Migración a AWS
 * Arquitectura híbrida (transición)
 * Segmentación de red (VPC)
-* Base de datos robusta (Oracle)
+* Base de datos robusta
 * Estandarización de plataformas
 
 ---
 
-## 🖼️ Diagrama de Arquitectura
+## 🖼️ Arquitectura Objetivo
 
 ![Arquitectura](./diagrams/arquitectura.png)
 
@@ -73,25 +72,40 @@ El negocio requería enfocarse en su core: el software, no la infraestructura.
 ## 🔄 Estrategia de Migración
 
 * Migración escalonada
+* Ventanas controladas (01:00 – 06:00 AM)
+* Priorización por criticidad
 
-* Ventanas controladas (01:00 a 06:00 AM)
+Secuencia:
 
-* Priorización por riesgo:
+1. Clientes bajo riesgo
+2. Clientes intermedios
+3. Clientes críticos (VIP)
 
-  * Bajo
-  * Medio
-  * Alto (VIP)
-
-* Datacenter como respaldo temporal
+Se mantuvo el datacenter como respaldo para asegurar continuidad.
 
 ---
 
 ## ⚡ Gestión de Riesgos
 
-* Pérdida de datos → respaldos + control de migración
-* Impacto operativo → ventanas nocturnas
+* Pérdida de datos → respaldos + validación
+* Impacto operativo → ventanas controladas
 * Clientes críticos → migración individual
 * Continuidad → arquitectura híbrida
+
+---
+
+## 📊 Observabilidad y Monitoreo
+
+Como parte de la arquitectura objetivo, se definió una capa de monitoreo utilizando Amazon CloudWatch, orientada a asegurar la estabilidad post-migración.
+
+Incluye:
+
+* Monitoreo de infraestructura
+* Seguimiento de disponibilidad
+* Alertas automáticas
+* Dashboards operativos
+
+👉 Ver detalle: [Métricas y monitoreo](./docs/metricas.md)
 
 ---
 
@@ -101,52 +115,54 @@ El negocio requería enfocarse en su core: el software, no la infraestructura.
 
 Responsable de:
 
-* Liderar estrategia de migración
+* Definición de estrategia de migración
 * Coordinación de equipos técnicos
 * Gestión de stakeholders
-* Planificación y ejecución controlada
+* Ejecución controlada del plan
 
 ---
 
-## 📈 Resultados
+## 📈 Resultados de Negocio
 
-* Reducción de costos operativos
+* Reducción significativa de costos operativos
 * Eliminación de dependencia de datacenter
-* Mejora en seguridad
-* Base para expansión internacional
+* Mejora en estabilidad y seguridad
+* Disminución de incidentes críticos
+* Base habilitada para expansión internacional
 
 ---
 
-## 📂 Documentación Detallada
+## 📂 Documentación
 
 * 👉 [Contexto](./docs/contexto.md)
 * 👉 [Arquitectura Actual](./docs/actual.md)
 * 👉 [Arquitectura Objetivo](./docs/futuro.md)
-* 👉 [Estrategia de Migración](./docs/migracion.md)
+* 👉 [Migración](./docs/migracion.md)
 * 👉 [Roadmap](./docs/roadmap.md)
 * 👉 [Riesgos](./docs/riesgos.md)
 * 👉 [Seguridad](./docs/seguridad.md)
-* 👉 [Métricas](./docs/metricas.md)
+* 👉 [Métricas y Monitoreo](./docs/metricas.md)
 * 👉 [Guía de Entrevista](./docs/entrevista.md)
 
 ---
 
-## 🧠 Enfoque Profesional
+## 🧠 Enfoque Consultivo
 
-Este repositorio no solo muestra tecnología, sino:
+Este proyecto refleja un enfoque integral:
 
-* Toma de decisiones
-* Priorización por riesgo
-* Estrategia de negocio
-* Liderazgo en transformación
+* Alineación negocio-tecnología
+* Gestión de riesgo
+* Toma de decisiones basada en impacto
+* Estrategia de migración progresiva
+* Diseño orientado a operación
 
 ---
 
-## 🚀 Próximos pasos
+## 🚀 Evolución
 
-* Evolución a microservicios
 * Automatización CI/CD
-* Observabilidad
+* Observabilidad avanzada
+* Microservicios
 * Integración con IA
 
 ---
