@@ -1,17 +1,30 @@
 # 📊 Antes vs Después
 
-# 📊 Antes vs Después
+## 🏢 Antes (Datacenter Local)
 
-## Antes
+* Alta tasa de incidentes operativos
+* Pérdida de información de clientes
+* Cambios en producción sin control
+* Falta de ambientes (DEV / QA / PREPROD)
+* Alto costo operativo (infraestructura, licencias, personal)
+* Limitaciones para escalar a nuevos mercados
 
-- Alta tasa de incidentes
-- Pérdida de información
-- Alto costo operativo
-- Cambios sin control
+---
 
-## Después
+## ☁️ Después (Arquitectura Cloud)
 
-- Plataforma estable
-- Monitoreo activo (CloudWatch)
-- Reducción de riesgos
-- Arquitectura escalable
+* Mayor estabilidad operativa
+* Reducción significativa de incidentes
+* Implementación de monitoreo (CloudWatch)
+* Control de cambios y mejor gobernanza
+* Optimización de costos operativos
+* Plataforma escalable y preparada para expansión internacional
+
+---
+
+## 📈 Impacto
+
+La migración permitió transformar el modelo operativo desde una infraestructura reactiva a un modelo proactivo basado en monitoreo, control y escalabilidad.
+
+Esto habilita al negocio a enfocarse en su core, reduciendo riesgos y mejorando la experiencia de los clientes.
+
