@@ -1,145 +1,153 @@
 # ☁️ Cloud Migration Architecture Portafolio
 
-## 🎯 Visión general
+Proyecto que demuestra un caso real de migración de una plataforma ERP de comercio exterior desde un datacenter local hacia una arquitectura cloud híbrida en AWS.
 
-Este repositorio presenta una propuesta estructurada de migración cloud, basada en un escenario real de modernización de una plataforma ERP desplegada originalmente en un datacenter local.
+Este repositorio está diseñado para evidenciar capacidades en:
 
-El enfoque está orientado a demostrar cómo liderar una iniciativa de transformación tecnológica desde una perspectiva de delivery, considerando arquitectura, estrategia, riesgos y continuidad operativa.
-
----
-
-## 🚀 Objetivo
-
-Diseñar una estrategia de migración que permita evolucionar una plataforma legacy hacia un modelo cloud más escalable y resiliente, asegurando:
-
-* continuidad operativa para clientes críticos
-* reducción de riesgos
-* migración progresiva y controlada
-* alineación con necesidades de negocio
+* Cloud Migration Strategy
+* Arquitectura Cloud (AWS)
+* Gestión de riesgos y continuidad operativa
+* Liderazgo de proyectos de transformación tecnológica
 
 ---
 
-## 🧩 Diagrama de arquitectura
+## 🎯 Objetivo
 
-Este diagrama muestra la evolución desde un modelo basado en datacenter local hacia una arquitectura cloud híbrida, asegurando continuidad operativa.
+Demostrar cómo abordar una migración cloud desde una perspectiva integral:
+
+* Negocio
+* Arquitectura
+* Riesgos
+* Ejecución
+* Resultados
+
+---
+
+## 🧩 Contexto del Caso
+
+Se trata de una plataforma ERP logística orientada a la gestión de importaciones y exportaciones, utilizada por agencias de aduana.
+
+El modelo era tipo SaaS (arriendo de plataforma), donde cada cliente operaba sobre una instancia independiente.
+
+---
+
+## ⚠️ Problema
+
+La organización operaba con un datacenter local, generando:
+
+* Altos costos operativos (infraestructura, licencias, personal)
+* Pérdida de información de clientes
+* Multas por incidentes
+* Falta de ambientes (DEV / QA / PROD)
+* Cambios en producción sin control
+
+El negocio requería enfocarse en su core: el software, no la infraestructura.
+
+---
+
+## 🏗️ Arquitectura
+
+### AS-IS (Actual)
+
+* Máquinas virtuales por cliente
+* Base de datos independiente por cliente
+* Alta fragmentación de versiones
+* Infraestructura on-premise
+
+### TO-BE (Objetivo)
+
+* Migración a AWS
+* Arquitectura híbrida (transición)
+* Segmentación de red (VPC)
+* Base de datos robusta (Oracle)
+* Estandarización de plataformas
+
+---
+
+## 🖼️ Diagrama de Arquitectura
 
 ![Arquitectura](./diagrams/arquitectura.png)
 
 ---
 
-## 🧩 Escenario abordado
+## 🔄 Estrategia de Migración
 
-Se modela un caso basado en experiencia real:
+* Migración escalonada
 
-* Plataforma ERP utilizada por múltiples clientes
-* Operación desde datacenter local
-* Limitaciones en escalabilidad y despliegue
-* Necesidad de modernización
+* Ventanas controladas (01:00 a 06:00 AM)
 
-La solución propone un modelo **cloud híbrido**, donde:
+* Priorización por riesgo:
 
-* la nube actúa como entorno principal
-* el datacenter local se mantiene como respaldo
+  * Bajo
+  * Medio
+  * Alto (VIP)
 
----
-
-## 🏗️ Enfoque de la solución
-
-La migración se plantea como un proceso incremental, evitando enfoques disruptivos:
-
-* análisis del estado actual
-* definición de arquitectura objetivo
-* migración por fases
-* operación híbrida
-* optimización continua
+* Datacenter como respaldo temporal
 
 ---
 
-## 📂 Contenido del repositorio
+## ⚡ Gestión de Riesgos
 
-### 📌 Contexto del problema
-
-👉 [Ver contexto](./docs/contexto.md)
-
-### 🏗️ Estado actual (AS-IS)
-
-👉 [Ver arquitectura actual](./docs/actual.md)
-
-### 🚀 Estado futuro (TO-BE)
-
-👉 [Ver arquitectura futura](./docs/futuro.md)
-
-### 🔄 Estrategia de migración
-
-👉 [Ver estrategia](./docs/migracion.md)
-
-### 🗺️ Roadmap de implementación
-
-👉 [Ver roadmap](./docs/roadmap.md)
-
-### ⚠️ Gestión de riesgos
-
-👉 [Ver riesgos](./docs/riesgos.md)
-
-### 🔐 Seguridad y control
-
-👉 [Ver seguridad](./docs/seguridad.md)
-
-### 📊 Métricas de éxito
-
-👉 [Ver métricas](./docs/metricas.md)
-
-### 🎤 Discurso de entrevista
-
-👉 [Ver narrativa](./docs/entrevista.md)
+* Pérdida de datos → respaldos + control de migración
+* Impacto operativo → ventanas nocturnas
+* Clientes críticos → migración individual
+* Continuidad → arquitectura híbrida
 
 ---
 
-## ⚙️ Capacidades demostradas
+## 👩‍💼 Rol
 
-Este repositorio evidencia competencias en:
+**Project Manager Senior**
 
-* planificación de migraciones cloud
-* entendimiento de arquitectura a nivel macro
-* diseño de estrategias de modernización
-* gestión de riesgos y continuidad operativa
-* estructuración de roadmap de transformación
-* alineación entre tecnología y negocio
+Responsable de:
 
----
-
-## 💼 Enfoque profesional
-
-Este proyecto está orientado a roles como:
-
-* Cloud Project Manager
-* Delivery Manager
-* Líder de Transformación Tecnológica
-* Platform Delivery Manager
-
-No busca demostrar implementación técnica, sino capacidad de estructurar y liderar iniciativas de modernización.
+* Liderar estrategia de migración
+* Coordinación de equipos técnicos
+* Gestión de stakeholders
+* Planificación y ejecución controlada
 
 ---
 
-## 🧠 Mensaje clave
+## 📈 Resultados
 
-La migración cloud no es solo un cambio tecnológico, sino un proceso de transformación que requiere estrategia, control y ejecución progresiva para asegurar resultados sostenibles.
-
----
-
-## 🚀 Cómo presentarlo
-
-Este repositorio puede ser utilizado como:
-
-* caso de estudio en entrevistas
-* evidencia de experiencia en modernización cloud
-* apoyo para conversaciones técnicas y estratégicas
-* material de posicionamiento profesional
+* Reducción de costos operativos
+* Eliminación de dependencia de datacenter
+* Mejora en seguridad
+* Base para expansión internacional
 
 ---
 
-## 📌 Autor
+## 📂 Documentación Detallada
 
-**Verónica Maldonado**
-Project Manager | Cloud & Agile Delivery | Transformación Tecnológica
+* 👉 [Contexto](./docs/contexto.md)
+* 👉 [Arquitectura Actual](./docs/actual.md)
+* 👉 [Arquitectura Objetivo](./docs/futuro.md)
+* 👉 [Estrategia de Migración](./docs/migracion.md)
+* 👉 [Roadmap](./docs/roadmap.md)
+* 👉 [Riesgos](./docs/riesgos.md)
+* 👉 [Seguridad](./docs/seguridad.md)
+* 👉 [Métricas](./docs/metricas.md)
+* 👉 [Guía de Entrevista](./docs/entrevista.md)
+
+---
+
+## 🧠 Enfoque Profesional
+
+Este repositorio no solo muestra tecnología, sino:
+
+* Toma de decisiones
+* Priorización por riesgo
+* Estrategia de negocio
+* Liderazgo en transformación
+
+---
+
+## 🚀 Próximos pasos
+
+* Evolución a microservicios
+* Automatización CI/CD
+* Observabilidad
+* Integración con IA
+
+---
 
