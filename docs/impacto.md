@@ -1,15 +1,17 @@
 # 📊 Antes vs Después
 
-## Antes (Datacenter)
+# 📊 Antes vs Después
+
+## Antes
 
 - Alta tasa de incidentes
 - Pérdida de información
-- Cambios en producción sin control
 - Alto costo operativo
+- Cambios sin control
 
-## Después (Cloud)
+## Después
 
-- Mayor estabilidad
-- Reducción de incidentes
+- Plataforma estable
 - Monitoreo activo (CloudWatch)
+- Reducción de riesgos
 - Arquitectura escalable
