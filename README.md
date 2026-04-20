@@ -4,6 +4,22 @@ Caso real de migración de una plataforma ERP de comercio exterior desde un data
 
 ---
 
+## 🚨 Impacto del Problema
+
+- Pérdida de información de clientes críticos
+- Multas operativas recurrentes
+- Riesgo de pérdida de clientes VIP
+
+---
+
+## 📈 Resultados Esperados
+
+- Reducción de incidentes en un ~70%
+- Mejora en disponibilidad > 99.9%
+- Disminución de costos operativos
+
+---
+
 ## 🎯 Executive Summary
 
 La organización operaba sobre un datacenter local con altos costos operativos y riesgos críticos de pérdida de información, afectando directamente la continuidad del negocio.
