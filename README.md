@@ -207,4 +207,20 @@ Responsable de:
 - CI/CD (conceptual)  
 - Observabilidad avanzada  
 - Analítica operativa  
-- Escalabilidad progresiva  
+- Escalabilidad progresiva
+
+---
+
+## 🔗 Relación con prácticas DevOps
+
+Este proyecto se complementa con prácticas de integración y despliegue continuo (CI/CD), fundamentales en entornos cloud modernos.
+
+📌 Ver implementación práctica en:
+👉 https://github.com/vermaldonado-ia/cloud-delivery-pipeline-portafolio
+
+Donde se demuestra:
+
+- Automatización de validaciones (CI)
+- Control de calidad (coverage, linting)
+- Despliegue continuo (CD)
+
