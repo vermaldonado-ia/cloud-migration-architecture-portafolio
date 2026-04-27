@@ -1,26 +1,6 @@
-# ☁️ Cloud Migration Architecture Portafolio
+# 🚀 Cloud Migration Architecture Portafolio
 
-Caso real de migración de una plataforma ERP de comercio exterior desde un datacenter local hacia una arquitectura cloud en AWS, liderado desde una perspectiva de gestión, continuidad operacional y alineación estratégica entre negocio y tecnología.
-
----
-
-## 🚨 Impacto del Problema
-
-* Pérdida de información de clientes críticos
-* Multas operativas recurrentes
-* Riesgo de pérdida de clientes VIP
-* Alta dependencia de infraestructura fuera del core del negocio
-* Altos costos asociados a licencias, herramientas de seguridad y mantenimiento del datacenter
-* Necesidad de perfiles técnicos especializados para la operación continua
-
----
-
-## 📈 Resultados Esperados
-
-* Reducción de incidentes operativos en ~70%
-* Disponibilidad del servicio > 99.9%
-* Disminución significativa de costos operativos
-* Mayor estabilidad para clientes críticos
+Caso real de migración de una plataforma ERP de comercio exterior desde un datacenter local hacia una arquitectura cloud en AWS, liderado desde una perspectiva de **gestión estratégica, continuidad operacional y transformación tecnológica**.
 
 ---
 
@@ -30,31 +10,52 @@ La organización operaba sobre un datacenter local con altos costos operativos y
 
 Se definió y lideró una estrategia de migración cloud escalonada hacia AWS, priorizada por criticidad de clientes, incorporando mejoras en arquitectura, seguridad y operación.
 
-El resultado fue una plataforma más estable, escalable y alineada al crecimiento del negocio, reduciendo riesgos y habilitando expansión internacional.
+📌 **Resultado:** una plataforma más estable, escalable y preparada para crecimiento e innovación.
+
+---
+
+## 🚨 Impacto del Problema
+
+- Pérdida de información de clientes críticos  
+- Multas operativas recurrentes  
+- Riesgo de pérdida de clientes VIP  
+- Alta dependencia de infraestructura fuera del core del negocio  
+- Altos costos de operación (licencias, seguridad, mantenimiento)  
+- Necesidad constante de soporte técnico especializado  
+
+---
+
+## 📈 Resultados Esperados
+
+- Reducción de incidentes operativos en ~70%  
+- Disponibilidad del servicio > 99.9%  
+- Disminución significativa de costos operativos  
+- Mayor estabilidad para clientes críticos  
+- Base tecnológica para escalabilidad e innovación  
 
 ---
 
 ## 🧩 Contexto del Negocio
 
-* **Industria:** Comercio exterior
-* **Plataforma:** ERP logístico (modelo SaaS)
-* **Arquitectura:** Instancias independientes por cliente
+**Industria:** Comercio exterior  
+**Plataforma:** ERP logístico (modelo SaaS)  
+**Arquitectura:** Instancias independientes por cliente  
 
-### Necesidades del negocio:
+### Necesidades del negocio
 
-* Escalar a nuevos mercados
-* Reducir costos operativos
-* Aumentar confiabilidad del servicio
+- Escalar a nuevos mercados  
+- Reducir costos operativos  
+- Aumentar confiabilidad del servicio  
 
 ---
 
 ## ⚠️ Problema Estratégico
 
-* Infraestructura fuera del core del negocio
-* Pérdida de información de clientes
-* Multas por incidentes operativos
-* Falta de ambientes controlados
-* Cambios en producción sin gobierno
+- Infraestructura fuera del core del negocio  
+- Pérdida de información de clientes  
+- Multas por incidentes operativos  
+- Falta de ambientes controlados  
+- Cambios en producción sin gobierno  
 
 ---
 
@@ -62,131 +63,148 @@ El resultado fue una plataforma más estable, escalable y alineada al crecimient
 
 La organización enfrentaba pérdidas recurrentes de información y altos costos debido a un modelo basado en datacenter local.
 
-Se definió una estrategia de migración cloud progresiva, priorizando clientes según criticidad, asegurando continuidad del negocio durante todo el proceso.
+Se diseñó y lideró una estrategia de migración cloud progresiva, priorizando clientes según criticidad, asegurando continuidad del negocio durante todo el proceso.
 
 ---
 
-## 🏗️ Arquitectura (Visión de Alto Nivel)
+## 🏗️ Arquitectura
 
 ### 🔹 AS-IS
+👉 Ver detalle: `02_arquitectura_actual_as_is.md`
 
-👉 Ver detalle completo: [Arquitectura Actual](docs/arquitectura_actual.md)
-
-* Datacenter local
-* Máquina virtual por cliente
-* Base de datos independiente
-* Uso de base de datos de código abierto con problemas de estabilidad
-* Alta fragmentación
+- Datacenter local  
+- Máquina virtual por cliente  
+- Base de datos independiente  
+- Alta fragmentación  
+- Problemas de estabilidad  
 
 ---
 
 ### 🔹 TO-BE
+👉 Ver detalle: `03_arquitectura_objetivo_to_be.md`
 
-👉 Ver detalle completo: [Arquitectura Objetivo](docs/arquitectura_objetivo.md)
-
-* Migración a AWS
-* Arquitectura híbrida
-* Segmentación de red (VPC)
-* Bases de datos más robustas
-* Estandarización
+- Migración a AWS  
+- Arquitectura híbrida  
+- Segmentación de red (VPC)  
+- Bases de datos robustas  
+- Estandarización de entornos  
 
 ---
 
 ## 🖼️ Arquitectura Objetivo
 
-![Arquitectura](diagrams/arquitectura.png)
+![Arquitectura](docs/arquitectura.png)
 
 ---
 
 ## 🔄 Estrategia de Migración
 
-👉 Ver documento completo: [Migración](docs/migracion.md)
+👉 Ver detalle: `migracion.md`
 
-* Migración escalonada
-* Ventanas controladas (01:00 – 06:00 AM y fines de semana)
-* Priorización por criticidad
+- Migración escalonada  
+- Ventanas controladas (01:00 – 06:00 AM y fines de semana)  
+- Priorización por criticidad  
+- Enfoque en continuidad operacional  
 
 ---
 
 ## ⚡ Gestión de Riesgos
 
-👉 Ver detalle: [Riesgos](docs/riesgos.md)
+👉 Ver detalle: `riesgos.md`
 
-* Pérdida de datos → respaldos + validación
-* Impacto operativo → ventanas controladas
-* Clientes críticos → migración individual
-* Comunicación con clientes → notificación previa
-
-Ver ejemplos reales en: docs/riesgos.md
+- Pérdida de datos → respaldos + validación  
+- Impacto operativo → ventanas controladas  
+- Clientes críticos → migración individual  
+- Comunicación → notificación anticipada  
 
 ---
 
 ## 📊 Observabilidad y Monitoreo
 
-👉 Ver detalle completo: [Métricas y Monitoreo](docs/metricas.md)
+👉 Ver detalle: `metricas.md`
 
-* Monitoreo de infraestructura
-* Disponibilidad
-* Alertas automáticas
-* Dashboards
+Se implementa una estrategia de observabilidad basada en Amazon CloudWatch:
+
+### 🔧 Métricas técnicas
+
+- CPUUtilization  
+- NetworkIn / NetworkOut  
+- DiskReadOps / DiskWriteOps  
+- Latencia de aplicación  
+- Errores de base de datos  
+
+### 🚨 Alertas críticas
+
+- CPU > 80% sostenido  
+- Fallas de instancias  
+- Degradación de servicios  
+
+---
+
+## 📊 Dashboards de Monitoreo
+
+### 📌 Dashboard Ejecutivo
+![Dashboard Ejecutivo](docs/dashboard.png)
+
+### 🔧 Dashboard Técnico
+![Dashboard Técnico](docs/dashboard_tecnico.png)
+
+### 🚨 Dashboard de Alarmas
+![Alarmas Críticas](docs/alarmas_criticas.png)
 
 ---
 
 ## 👩‍💼 Rol en el Proyecto
 
-**Project Manager Senior**
+**Project Manager Senior / Delivery Lead**
 
 Responsable de:
 
-* Definición de estrategia de migración
-* Coordinación de equipos técnicos
-* Gestión de stakeholders
-* Aseguramiento de continuidad operacional
+- Definición de estrategia de migración  
+- Coordinación de equipos técnicos  
+- Gestión de stakeholders  
+- Aseguramiento de continuidad operacional  
+- Gestión de riesgos  
 
 ---
 
 ## 📈 Resultados de Negocio
 
-* Reducción significativa de costos operativos
-* Eliminación de dependencia de datacenter
-* Mejora en estabilidad
-* Disminución de incidentes críticos
-* Incorporación de un enfoque de control de costos y monitoreo del consumo de recursos, asegurando una operación cloud eficiente y sostenible
+- Reducción de costos operativos  
+- Eliminación de dependencia de datacenter  
+- Mejora en estabilidad de plataforma  
+- Disminución de incidentes críticos  
+- Incorporación de control de costos cloud  
 
 ---
 
 ## 📂 Documentación del Proyecto
 
-Para revisar el detalle completo de la arquitectura, estrategia y ejecución del proyecto, puedes navegar en los siguientes documentos:
-
-* 📘 [Contexto del Negocio](docs/contexto.md)
-* 🏗️ [Arquitectura Actual (AS-IS)](docs/02_arquitectura_actual_as_is.md)
-* ☁️ [Arquitectura Objetivo (TO-BE)](docs/03_arquitectura_objetivo_to_be.md)
-* 🔄 [Estrategia de Migración](docs/migracion.md)
-* ⚠️ [Gestión de Riesgos](docs/riesgos.md)
-* 📊 [Métricas y Monitoreo](docs/metricas.md)
-* 🔐 [Seguridad](docs/seguridad.md)
-* 🗺️ [Roadmap](docs/roadmap.md)
-* 🔍 [Antes vs Después](docs/antes_despues.md)
-* 🧠 [Lecciones Aprendidas](docs/lecciones_aprendidas.md)
-
-Estos documentos complementan la visión general presentada en este repositorio, permitiendo profundizar en cada aspecto del proyecto.
-
+- 📘 Contexto del Negocio  
+- 🏗️ Arquitectura AS-IS  
+- ☁️ Arquitectura TO-BE  
+- 🔄 Estrategia de Migración  
+- ⚠️ Gestión de Riesgos  
+- 📊 Métricas y Monitoreo  
+- 🔐 Seguridad  
+- 🗺️ Roadmap  
+- 🔍 Antes vs Después  
+- 🧠 Lecciones Aprendidas  
 
 ---
 
 ## 🧠 Enfoque Consultivo
 
-* Alineación negocio-tecnología
-* Gestión de riesgo
-* Decisiones basadas en impacto
-* Estrategia progresiva
+- Alineación negocio-tecnología  
+- Gestión de riesgo  
+- Decisiones basadas en impacto  
+- Estrategia progresiva  
 
 ---
 
 ## 🚀 Evolución
 
-* CI/CD (conceptual)
-* Observabilidad avanzada
-* Analítica operativa
-* Escalabilidad progresiva
+- CI/CD (conceptual)  
+- Observabilidad avanzada  
+- Analítica operativa  
+- Escalabilidad progresiva  
