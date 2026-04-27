@@ -143,3 +143,5 @@ Gestión de eventos críticos:
 - Umbrales definidos
 - Notificación de incidentes
 
+📸 Referencia visual disponible en el README principal del repositorio.
+
