@@ -144,13 +144,13 @@ Se implementa una estrategia de observabilidad basada en Amazon CloudWatch:
 ## 📊 Dashboards de Monitoreo
 
 ### 📌 Dashboard Ejecutivo
-![Dashboard Ejecutivo](../diagrams/dashboard_ejecutivo.png)
+![Dashboard Ejecutivo](diagrams/dashboard_ejecutivo.png)
 
 ### 🔧 Dashboard Técnico
-![Dashboard Técnico](../diagrams/dashboard_tecnico.png)
+![Dashboard Técnico](diagrams/dashboard_tecnico.png)
 
 ### 🚨 Dashboard de Alarmas
-![Alarmas Críticas](../diagrams/alarmas_criticas.png)
+![Alarmas Críticas](diagrams/alarmas_criticas.png)
 
 ---
 
