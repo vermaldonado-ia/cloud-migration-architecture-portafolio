@@ -1,12 +1,4 @@
-## 📌 Contexto
-
-En el modelo anterior no existía monitoreo estructurado, lo que dificultaba la detección temprana de incidentes y aumentaba el impacto en clientes.
-
-La nueva arquitectura incorpora una capa de observabilidad basada en CloudWatch.
-
----
-
-# 📊 Observabilidad, Monitoreo y Métricas de Éxito
+## 📊 Observabilidad, Monitoreo y Métricas de Éxito
 
 Como parte de la arquitectura objetivo, se definió una capa de observabilidad orientada a asegurar la estabilidad operativa post-migración.
 
@@ -14,7 +6,7 @@ Se propone el uso de Amazon CloudWatch como herramienta central de monitoreo.
 
 ---
 
-## 🎯 Objetivo
+### 🎯 Objetivo
 
 * Detectar incidentes de forma temprana
 * Asegurar continuidad operacional
@@ -38,7 +30,7 @@ Se definieron métricas clave para el seguimiento de la infraestructura y servic
 
 ---
 
-## 🚨 Alertas (Alarmas)
+### 🚨 Alertas (Alarmas)
 
 Se proponen alarmas automáticas para detectar eventos críticos:
 
@@ -52,7 +44,7 @@ Estas alertas permiten una respuesta proactiva ante incidentes.
 
 ---
 
-## 📊 Dashboard Operativo
+### 📊 Dashboard Operativo
 
 Se define un dashboard para monitoreo ejecutivo:
 
@@ -61,54 +53,6 @@ Se define un dashboard para monitoreo ejecutivo:
 * Clientes afectados
 * Incidentes activos vs resueltos
 * Tendencia de uso de recursos
-
----
-
-## 💰 Gestión de Costos y Control Financiero
-
-Como parte del proceso de migración, se incorporó un enfoque de control de costos orientado a evitar desviaciones y asegurar la sostenibilidad de la operación en cloud.
-
----
-
-### 🔹 Estimación previa de costos
-
-Antes de la migración, se realizó una evaluación de costos utilizando herramientas de estimación (AWS Pricing Calculator), permitiendo:
-
-* Proyectar costos de infraestructura en cloud
-* Comparar con costos actuales del datacenter
-* Definir un modelo financiero más eficiente
-* Apoyar la toma de decisiones estratégicas
-
----
-
-### 🔹 Control y monitoreo de costos
-
-Durante la operación, se definieron mecanismos de control para evitar sobrecostos:
-
-* Uso de etiquetas (tags) para segmentar recursos por cliente y entorno
-* Seguimiento del consumo de recursos en función de la demanda
-* Monitoreo del comportamiento de la infraestructura
-
----
-
-### 🔹 Alertas y gestión de escalabilidad
-
-Se establecieron mecanismos de alerta asociados al crecimiento de la plataforma:
-
-* Notificaciones ante incremento de consumo de recursos
-* Seguimiento de escalamiento horizontal y vertical
-* Identificación temprana de posibles desviaciones de costos
-
----
-
-### 🎯 Objetivo de Control de Costos
-
-Asegurar un uso eficiente de los recursos en cloud, manteniendo el control financiero de la operación y evitando incrementos inesperados de costos.
-
----
-
-Este enfoque permitió complementar la migración tecnológica con un control económico adecuado, alineando la operación cloud con los objetivos de eficiencia del negocio.
-
 
 ---
 
@@ -130,9 +74,48 @@ Este enfoque permitió complementar la migración tecnológica con un control ec
 
 ---
 
+## 💰 Gestión de Costos y Control Financiero
+
+Como parte del proceso de migración, se incorporó un enfoque de control de costos orientado a evitar desviaciones y asegurar la sostenibilidad de la operación en cloud.
+
+---
+
+### 🔹 Estimación previa de costos
+
+Antes de la migración, se realizó una evaluación utilizando AWS Pricing Calculator, permitiendo:
+
+* Proyectar costos de infraestructura
+* Comparar con el modelo de datacenter
+* Definir un modelo financiero eficiente
+* Apoyar decisiones estratégicas
+
+---
+
+### 🔹 Control y monitoreo de costos
+
+* Uso de etiquetas (tags) por cliente y entorno
+* Seguimiento del consumo de recursos
+* Monitoreo del comportamiento de la infraestructura
+
+---
+
+### 🔹 Alertas y gestión de escalabilidad
+
+* Notificaciones ante incremento de consumo
+* Seguimiento de escalamiento horizontal y vertical
+* Identificación temprana de desviaciones
+
+---
+
+### 🎯 Objetivo de Control de Costos
+
+Asegurar un uso eficiente de los recursos en cloud, evitando incrementos inesperados y manteniendo la sostenibilidad financiera de la operación.
+
+---
+
 ## 🧠 Enfoque
 
-La incorporación de monitoreo y alertamiento permite:
+La incorporación de monitoreo y control financiero permite:
 
 * Transitar de un modelo reactivo a uno proactivo
 * Mejorar la experiencia del cliente
@@ -142,26 +125,15 @@ La incorporación de monitoreo y alertamiento permite:
 
 ## 📊 Dashboards de Monitoreo (Referencia)
 
-Los siguientes dashboards representan una vista referencial de la capa de observabilidad definida para la arquitectura objetivo.
+### 📊 Dashboard Ejecutivo
 
-### Dashboard Ejecutivo
+Vista orientada a negocio para monitorear disponibilidad, incidentes y estabilidad general del servicio.
 
-![Dashboard Ejecutivo](../diagrams/dashboard_ejecutivo.png)
+### 🔧 Dashboard Técnico
 
-Vista orientada a negocio para monitorear disponibilidad, incidentes, clientes migrados y estabilidad general del servicio.
+Vista orientada a operación para supervisar performance de infraestructura, red y estado de instancias.
 
----
+### 🚨 Alarmas Críticas
 
-### Dashboard Técnico
+Vista de alertamiento para detección temprana de incidentes post-migración.
 
-![Dashboard Técnico](../diagrams/dashboard_tecnico.png)
-
-Vista orientada a operación para supervisar performance de infraestructura, red, latencia y estado de instancias.
-
----
-
-### Alarmas Críticas
-
-![Alarmas Críticas](../diagrams/alarmas_criticas.png)
-
-Vista de alertamiento operacional para la detección temprana de incidentes críticos post-migración.
