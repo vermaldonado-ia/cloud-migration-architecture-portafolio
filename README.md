@@ -160,8 +160,6 @@ Permite a stakeholders tomar decisiones rápidas frente a eventos críticos.
 
 ### 🔧 Dashboard Técnico
 
-### 🔧 Dashboard Técnico
-
 Vista detallada del comportamiento de la infraestructura y servicios.
 
 Incluye:
