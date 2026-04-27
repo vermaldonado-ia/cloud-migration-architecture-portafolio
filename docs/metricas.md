@@ -64,6 +64,54 @@ Se define un dashboard para monitoreo ejecutivo:
 
 ---
 
+## 💰 Gestión de Costos y Control Financiero
+
+Como parte del proceso de migración, se incorporó un enfoque de control de costos orientado a evitar desviaciones y asegurar la sostenibilidad de la operación en cloud.
+
+---
+
+### 🔹 Estimación previa de costos
+
+Antes de la migración, se realizó una evaluación de costos utilizando herramientas de estimación (AWS Pricing Calculator), permitiendo:
+
+* Proyectar costos de infraestructura en cloud
+* Comparar con costos actuales del datacenter
+* Definir un modelo financiero más eficiente
+* Apoyar la toma de decisiones estratégicas
+
+---
+
+### 🔹 Control y monitoreo de costos
+
+Durante la operación, se definieron mecanismos de control para evitar sobrecostos:
+
+* Uso de etiquetas (tags) para segmentar recursos por cliente y entorno
+* Seguimiento del consumo de recursos en función de la demanda
+* Monitoreo del comportamiento de la infraestructura
+
+---
+
+### 🔹 Alertas y gestión de escalabilidad
+
+Se establecieron mecanismos de alerta asociados al crecimiento de la plataforma:
+
+* Notificaciones ante incremento de consumo de recursos
+* Seguimiento de escalamiento horizontal y vertical
+* Identificación temprana de posibles desviaciones de costos
+
+---
+
+### 🎯 Objetivo
+
+Asegurar un uso eficiente de los recursos en cloud, manteniendo el control financiero de la operación y evitando incrementos inesperados de costos.
+
+---
+
+Este enfoque permitió complementar la migración tecnológica con un control económico adecuado, alineando la operación cloud con los objetivos de eficiencia del negocio.
+
+
+---
+
 ## 📈 Métricas Operativas
 
 * Número de incidentes post-migración
