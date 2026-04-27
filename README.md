@@ -93,7 +93,7 @@ Se diseñó y lideró una estrategia de migración cloud progresiva, priorizando
 
 ## 🖼️ Arquitectura Objetivo
 
-![Arquitectura](docs/arquitectura.png)
+![Arquitectura](diagrams/arquitectura.png)
 
 ---
 
