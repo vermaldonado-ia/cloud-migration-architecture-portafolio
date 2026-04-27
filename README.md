@@ -151,7 +151,7 @@ Responsable de:
 * Eliminación de dependencia de datacenter
 * Mejora en estabilidad
 * Disminución de incidentes críticos
-* Se incorporó un enfoque de control de costos y monitoreo del consumo de recursos, permitiendo una operación cloud eficiente y sostenible
+* Incorporación de un enfoque de control de costos y monitoreo del consumo de recursos, asegurando una operación cloud eficiente y sostenible
 
 ---
 
