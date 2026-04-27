@@ -135,7 +135,7 @@ Vista orientada a negocio para monitorear disponibilidad, incidentes y estabilid
 
 Vista orientada a operación para supervisar performance de infraestructura, red y estado de instancias.
 
-![Dashboard Técnico](ddiagrams/dashboard_tecnico.png)
+![Dashboard Técnico](diagrams/dashboard_tecnico.png)
 
 ---
 
