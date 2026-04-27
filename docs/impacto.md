@@ -1,58 +1,52 @@
-## 🔍 Antes vs Después – Transformación de la Plataforma
+## 🔍 Antes vs Después (Impacto de la Migración)
 
-La siguiente comparativa muestra la evolución de la plataforma desde un modelo basado en datacenter local hacia una arquitectura cloud, destacando mejoras en estabilidad, control operativo y capacidad de crecimiento.
+### ⚠️ Antes (Datacenter local)
 
----
-
-### 🏢 Antes (Datacenter Local)
-
-* Alta tasa de incidentes operativos
-* Pérdida de información de clientes
-* Uso de base de datos inestable ante crecimiento
-* Cambios en producción sin control
-* Ausencia de ambientes separados (DEV / QA / PROD)
-* Múltiples versiones de la plataforma sin estandarización
-* Baja trazabilidad y control de accesos
-* Alta dependencia de infraestructura física
-* Alto costo operativo (infraestructura, licencias, personal)
-* Limitaciones para escalar a nuevos mercados
+* ❌ Pérdida recurrente de información de clientes
+* ❌ Incidentes detectados de forma reactiva
+* ❌ Baja visibilidad del estado de la plataforma
+* ❌ Alta dependencia de intervención manual
+* ❌ Costos elevados de operación (infraestructura + soporte)
+* ❌ Riesgo constante en clientes críticos (VIP)
 
 ---
 
-### ☁️ Después (Arquitectura Cloud en AWS)
+### 🚀 Después (Arquitectura Cloud en AWS)
 
-* Mayor estabilidad operativa
-* Reducción significativa de incidentes
-* Base de datos más robusta y confiable
-* Control de cambios y mayor gobernanza
-* Separación de ambientes (DEV / QA / PROD)
-* Estandarización de la plataforma (reducción de versiones)
-* Mejora en seguridad (accesos controlados y segmentación)
-* Implementación de monitoreo (CloudWatch)
-* Optimización de costos operativos
-* Plataforma escalable y preparada para expansión internacional
+* ✔ Alta disponibilidad del servicio (> 99.9%)
+* ✔ Monitoreo proactivo con alertas automáticas
+* ✔ Visibilidad en tiempo real (dashboards ejecutivo, técnico y alarmas)
+* ✔ Reducción significativa de incidentes operativos (~70%)
+* ✔ Gestión estructurada de eventos críticos
+* ✔ Escalabilidad para crecimiento y expansión internacional
 
 ---
 
-## 📊 Impacto de la Transformación
+## 📊 Impacto Medible en el Negocio
 
-La migración permitió evolucionar desde un modelo reactivo, con alta exposición a riesgos operacionales, hacia un modelo controlado, estable y orientado a la continuidad del negocio.
-
-Se logró:
-
-* Reducción de riesgos operacionales
-* Mejora en la estabilidad y disponibilidad del servicio
-* Disminución de incidentes críticos
-* Mayor control sobre la operación y cambios en producción
-* Optimización de costos asociados a infraestructura
-* Base tecnológica preparada para crecimiento internacional
+| Indicador              | Antes         | Después                          |
+| ---------------------- | ------------- | -------------------------------- |
+| Disponibilidad         | No controlada | > 99.9%                          |
+| Incidentes críticos    | Frecuentes    | ↓ ~70%                           |
+| Tiempo de detección    | Reactivo      | Proactivo (alertas)              |
+| Visibilidad operativa  | Baja          | Alta (dashboards en tiempo real) |
+| Riesgo en clientes VIP | Alto          | Controlado                       |
+| Costos operativos      | Elevados      | Optimizados                      |
 
 ---
 
-## 🚀 Resultado Estratégico
+## 🎯 Valor Estratégico
 
-Esta transformación permitió al negocio dejar de enfocarse en la gestión de infraestructura, para centrarse en su core operativo, mejorando la experiencia de los clientes y habilitando nuevas oportunidades de crecimiento.
+La migración no solo resuelve un problema tecnológico, sino que transforma la operación del negocio:
+
+* Permite anticipar incidentes antes de impactar a clientes
+* Asegura continuidad operacional en servicios críticos
+* Reduce dependencia de infraestructura local
+* Habilita una base sólida para innovación futura (analítica, automatización, IA)
 
 ---
 
-Este cambio representa un punto de inflexión en la evolución de la plataforma, alineando la tecnología con los objetivos estratégicos de la organización.
+## 💡 Conclusión
+
+La adopción de una arquitectura cloud, junto con una estrategia de monitoreo y gestión de incidentes, permite pasar de un modelo reactivo a uno proactivo, donde la tecnología se alinea directamente con los objetivos del negocio.
+
