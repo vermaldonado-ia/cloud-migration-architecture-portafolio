@@ -152,18 +152,23 @@ Responsable de:
 
 ---
 
-## 📂 Documentación
+## 📂 Documentación del Proyecto
 
-* 👉 [Contexto](docs/contexto.md)
-* 👉 [Arquitectura Actual (AS-IS)](docs/02_arquitectura_actual_as_is.md)
-* 👉 [Arquitectura Objetivo (TO-BE)](docs/03_arquitectura_objetivo_to_be.md)
-* 👉 [Migración](docs/migracion.md)
-* 👉 [Roadmap](docs/roadmap.md)
-* 👉 [Riesgos](docs/riesgos.md)
-* 👉 [Seguridad](docs/seguridad.md)
-* 👉 [Métricas y Monitoreo](docs/metricas.md)
-* 👉 [Antes vs Después](docs/antes_despues.md)
-* 👉 [Lecciones Aprendidas](docs/lecciones_aprendidas.md)
+Para revisar el detalle completo de la arquitectura, estrategia y ejecución del proyecto, puedes navegar en los siguientes documentos:
+
+* 📘 [Contexto del Negocio](docs/contexto.md)
+* 🏗️ [Arquitectura Actual (AS-IS)](docs/02_arquitectura_actual_as_is.md)
+* ☁️ [Arquitectura Objetivo (TO-BE)](docs/03_arquitectura_objetivo_to_be.md)
+* 🔄 [Estrategia de Migración](docs/migracion.md)
+* ⚠️ [Gestión de Riesgos](docs/riesgos.md)
+* 📊 [Métricas y Monitoreo](docs/metricas.md)
+* 🔐 [Seguridad](docs/seguridad.md)
+* 🗺️ [Roadmap](docs/roadmap.md)
+* 🔍 [Antes vs Después](docs/antes_despues.md)
+* 🧠 [Lecciones Aprendidas](docs/lecciones_aprendidas.md)
+
+Estos documentos complementan la visión general presentada en este repositorio, permitiendo profundizar en cada aspecto del proyecto.
+
 
 ---
 
