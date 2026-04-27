@@ -144,13 +144,59 @@ Se implementa una estrategia de observabilidad basada en Amazon CloudWatch:
 ## 📊 Dashboards de Monitoreo
 
 ### 📌 Dashboard Ejecutivo
+
+Vista orientada a negocio, que permite monitorear el estado general del sistema en tiempo real.
+
+Incluye:
+
+- Disponibilidad del servicio
+- Incidentes activos
+- Tendencia de fallas
+- Estado de salud de la plataforma
+
+Permite a stakeholders tomar decisiones rápidas frente a eventos críticos.
+
 ![Dashboard Ejecutivo](diagrams/dashboard_ejecutivo.png)
 
 ### 🔧 Dashboard Técnico
+
+### 🔧 Dashboard Técnico
+
+Vista detallada del comportamiento de la infraestructura y servicios.
+
+Incluye:
+
+- Uso de CPU y memoria
+- Tráfico de red
+- Latencia de aplicación
+- Errores de sistema
+
+Permite al equipo técnico detectar cuellos de botella y degradación del rendimiento.
+
 ![Dashboard Técnico](diagrams/dashboard_tecnico.png)
 
 ### 🚨 Dashboard de Alarmas
+
+Consolida eventos críticos detectados automáticamente por el sistema.
+
+Incluye:
+
+- Alertas por uso de CPU elevado
+- Fallas de instancias
+- Degradación de servicios
+
+Permite activar protocolos de respuesta temprana y reducir impacto en clientes.
 ![Alarmas Críticas](diagrams/alarmas_criticas.png)
+
+## 🔎 Interpretación Operacional
+
+Los dashboards fueron diseñados para soportar la toma de decisiones en distintos niveles:
+
+- Nivel ejecutivo → visión de continuidad del negocio y estado de clientes críticos  
+- Nivel técnico → monitoreo de performance y estabilidad  
+- Nivel operacional → gestión de incidentes en tiempo real  
+
+Esta estructura permite una gestión integral del servicio en entorno cloud, alineando tecnología con impacto en el negocio.
 
 ---
 
@@ -223,4 +269,5 @@ Donde se demuestra:
 - Automatización de validaciones (CI)
 - Control de calidad (coverage, linting)
 - Despliegue continuo (CD)
+
 
