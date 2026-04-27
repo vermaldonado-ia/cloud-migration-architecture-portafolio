@@ -101,7 +101,7 @@ Se establecieron mecanismos de alerta asociados al crecimiento de la plataforma:
 
 ---
 
-### 🎯 Objetivo
+### 🎯 Objetivo de Control de Costos
 
 Asegurar un uso eficiente de los recursos en cloud, manteniendo el control financiero de la operación y evitando incrementos inesperados de costos.
 
