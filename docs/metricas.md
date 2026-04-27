@@ -44,7 +44,7 @@ Estas alertas permiten una respuesta proactiva ante incidentes.
 
 ---
 
-### 📊 Dashboard Operativo
+## 📊 Dashboard Operativo
 
 Se define un dashboard para monitoreo ejecutivo:
 
@@ -77,8 +77,6 @@ Se define un dashboard para monitoreo ejecutivo:
 ## 💰 Gestión de Costos y Control Financiero
 
 Como parte del proceso de migración, se incorporó un enfoque de control de costos orientado a evitar desviaciones y asegurar la sostenibilidad de la operación en cloud.
-
----
 
 ### 🔹 Estimación previa de costos
 
@@ -129,11 +127,21 @@ La incorporación de monitoreo y control financiero permite:
 
 Vista orientada a negocio para monitorear disponibilidad, incidentes y estabilidad general del servicio.
 
+![Dashboard Ejecutivo](docs/dashboard_ejecutivo.png)
+
+---
+
 ### 🔧 Dashboard Técnico
 
 Vista orientada a operación para supervisar performance de infraestructura, red y estado de instancias.
 
+![Dashboard Técnico](docs/dashboard_tecnico.png)
+
+---
+
 ### 🚨 Alarmas Críticas
 
 Vista de alertamiento para detección temprana de incidentes post-migración.
+
+![Alarmas Críticas](docs/alarmas_criticas.png)
 
