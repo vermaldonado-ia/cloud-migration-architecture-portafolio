@@ -127,7 +127,7 @@ La incorporación de monitoreo y control financiero permite:
 
 Vista orientada a negocio para monitorear disponibilidad, incidentes y estabilidad general del servicio.
 
-![Dashboard Ejecutivo](docs/dashboard_ejecutivo.png)
+![Dashboard Ejecutivo](diagrams/dashboard_ejecutivo.png)
 
 ---
 
@@ -135,7 +135,7 @@ Vista orientada a negocio para monitorear disponibilidad, incidentes y estabilid
 
 Vista orientada a operación para supervisar performance de infraestructura, red y estado de instancias.
 
-![Dashboard Técnico](docs/dashboard_tecnico.png)
+![Dashboard Técnico](ddiagrams/dashboard_tecnico.png)
 
 ---
 
@@ -143,5 +143,5 @@ Vista orientada a operación para supervisar performance de infraestructura, red
 
 Vista de alertamiento para detección temprana de incidentes post-migración.
 
-![Alarmas Críticas](docs/alarmas_criticas.png)
+![Alarmas Críticas](diagrams/alarmas_criticas.png)
 
