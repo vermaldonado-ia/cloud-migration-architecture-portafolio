@@ -123,25 +123,23 @@ La incorporación de monitoreo y control financiero permite:
 
 ## 📊 Dashboards de Monitoreo (Referencia)
 
-### 📊 Dashboard Ejecutivo
+## 📊 Dashboards de Monitoreo
 
-Vista orientada a negocio para monitorear disponibilidad, incidentes y estabilidad general del servicio.
+Los dashboards fueron diseñados para cubrir distintos niveles de visibilidad:
 
-![Dashboard Ejecutivo](../diagrams/dashboard_ejecutivo.png)
-
----
+### 📌 Dashboard Ejecutivo
+Vista orientada a negocio, enfocada en disponibilidad, incidentes y estado general del servicio.
 
 ### 🔧 Dashboard Técnico
+Monitoreo detallado de performance:
+- CPU
+- Memoria
+- Latencia
+- Uso de red
 
-Vista orientada a operación para supervisar performance de infraestructura, red y estado de instancias.
-
-![Dashboard Técnico](../diagrams/dashboard_tecnico.png)
-
----
-
-### 🚨 Alarmas Críticas
-
-Vista de alertamiento para detección temprana de incidentes post-migración.
-
-![Alarmas Críticas](../diagrams/alarmas_criticas.png)
+### 🚨 Dashboard de Alarmas
+Gestión de eventos críticos:
+- Alertas automáticas
+- Umbrales definidos
+- Notificación de incidentes
 
