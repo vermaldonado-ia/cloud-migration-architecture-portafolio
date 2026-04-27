@@ -117,6 +117,8 @@ Se definió una estrategia de migración cloud progresiva, priorizando clientes 
 * Clientes críticos → migración individual
 * Comunicación con clientes → notificación previa
 
+Ver ejemplos reales en: docs/riesgos.md
+
 ---
 
 ## 📊 Observabilidad y Monitoreo
@@ -187,7 +189,3 @@ Estos documentos complementan la visión general presentada en este repositorio,
 * Observabilidad avanzada
 * Analítica operativa
 * Escalabilidad progresiva
-
----
-
-Ver ejemplos reales en: docs/riesgos.md
