@@ -56,19 +56,13 @@ El resultado fue una plataforma más estable, escalable y alineada al crecimient
 * Falta de ambientes controlados
 * Cambios en producción sin gobierno
 
-### Impacto directo en:
-
-* Continuidad operacional
-* Reputación
-* Crecimiento internacional
-
 ---
 
 ## 📖 Historia del Proyecto
 
-La organización enfrentaba pérdidas recurrentes de información y altos costos debido a un modelo basado en datacenter local, con baja estandarización y riesgos operativos elevados.
+La organización enfrentaba pérdidas recurrentes de información y altos costos debido a un modelo basado en datacenter local.
 
-Se definió una estrategia de migración cloud progresiva, priorizando clientes según criticidad, permitiendo reducir riesgos, controlar la transición y asegurar continuidad del negocio durante todo el proceso.
+Se definió una estrategia de migración cloud progresiva, priorizando clientes según criticidad, asegurando continuidad del negocio durante todo el proceso.
 
 ---
 
@@ -76,22 +70,25 @@ Se definió una estrategia de migración cloud progresiva, priorizando clientes 
 
 ### 🔹 AS-IS
 
+👉 Ver detalle completo: [Arquitectura Actual](docs/02_arquitectura_actual_as_is.md)
+
 * Datacenter local
 * Máquina virtual por cliente
 * Base de datos independiente
-* Uso de base de datos de código abierto con problemas de estabilidad debido al crecimiento de la empresa
+* Uso de base de datos de código abierto con problemas de estabilidad
 * Alta fragmentación
-* Baja estandarización
 
 ---
 
 ### 🔹 TO-BE
 
+👉 Ver detalle completo: [Arquitectura Objetivo](docs/03_arquitectura_objetivo_to_be.md)
+
 * Migración a AWS
-* Arquitectura híbrida (fase de transición)
+* Arquitectura híbrida
 * Segmentación de red (VPC)
 * Bases de datos más robustas
-* Estandarización de plataformas
+* Estandarización
 
 ---
 
@@ -103,42 +100,33 @@ Se definió una estrategia de migración cloud progresiva, priorizando clientes 
 
 ## 🔄 Estrategia de Migración
 
+👉 Ver documento completo: [Migración](docs/migracion.md)
+
 * Migración escalonada
 * Ventanas controladas (01:00 – 06:00 AM y fines de semana)
-* Priorización por criticidad de clientes
-
-### Secuencia:
-
-1. Clientes de bajo riesgo
-2. Clientes intermedios
-3. Clientes críticos (VIP)
-
-Se mantuvo el datacenter como respaldo durante la transición, asegurando continuidad operacional.
+* Priorización por criticidad
 
 ---
 
 ## ⚡ Gestión de Riesgos
 
-* **Pérdida de datos** → respaldos + validación
-* **Impacto operativo** → ventanas controladas
-* **Clientes críticos** → migración individual
-* **Continuidad** → arquitectura híbrida
-* **Comunicación con clientes** → notificación previa a cada proceso de migración
+👉 Ver detalle: [Riesgos](docs/riesgos.md)
+
+* Pérdida de datos → respaldos + validación
+* Impacto operativo → ventanas controladas
+* Clientes críticos → migración individual
+* Comunicación con clientes → notificación previa
 
 ---
 
 ## 📊 Observabilidad y Monitoreo
 
-Se definió una capa de monitoreo basada en Amazon CloudWatch para asegurar estabilidad post-migración.
-
-Incluye:
+👉 Ver detalle completo: [Métricas y Monitoreo](docs/metricas.md)
 
 * Monitoreo de infraestructura
-* Seguimiento de disponibilidad
+* Disponibilidad
 * Alertas automáticas
-* Dashboards operativos
-
-👉 Ver detalle: `docs/metricas.md`
+* Dashboards
 
 ---
 
@@ -146,15 +134,11 @@ Incluye:
 
 **Project Manager Senior**
 
-Participación desde el liderazgo de la migración, con foco en gestión y coordinación, no en implementación técnica directa.
-
 Responsable de:
 
 * Definición de estrategia de migración
-* Priorización por criticidad de clientes
 * Coordinación de equipos técnicos
 * Gestión de stakeholders
-* Ejecución controlada del plan
 * Aseguramiento de continuidad operacional
 
 ---
@@ -162,44 +146,39 @@ Responsable de:
 ## 📈 Resultados de Negocio
 
 * Reducción significativa de costos operativos
-* Eliminación de dependencia de datacenter local
-* Mejora en estabilidad y disponibilidad del servicio
+* Eliminación de dependencia de datacenter
+* Mejora en estabilidad
 * Disminución de incidentes críticos
-* Base tecnológica habilitada para expansión internacional
 
 ---
 
 ## 📂 Documentación
 
-* 👉 Contexto
-* 👉 Arquitectura Actual (AS-IS)
-* 👉 Arquitectura Objetivo (TO-BE)
-* 👉 Migración
-* 👉 Roadmap
-* 👉 Riesgos
-* 👉 Seguridad
-* 👉 Métricas y Monitoreo
-* 👉 Antes vs Después
-* 👉 Lecciones Aprendidas
+* 👉 [Contexto](docs/contexto.md)
+* 👉 [Arquitectura Actual (AS-IS)](docs/02_arquitectura_actual_as_is.md)
+* 👉 [Arquitectura Objetivo (TO-BE)](docs/03_arquitectura_objetivo_to_be.md)
+* 👉 [Migración](docs/migracion.md)
+* 👉 [Roadmap](docs/roadmap.md)
+* 👉 [Riesgos](docs/riesgos.md)
+* 👉 [Seguridad](docs/seguridad.md)
+* 👉 [Métricas y Monitoreo](docs/metricas.md)
+* 👉 [Antes vs Después](docs/antes_despues.md)
+* 👉 [Lecciones Aprendidas](docs/lecciones_aprendidas.md)
 
 ---
 
 ## 🧠 Enfoque Consultivo
 
-Este proyecto refleja un enfoque orientado a negocio:
-
-* Alineación entre negocio y tecnología
-* Gestión de riesgo operacional
-* Toma de decisiones basada en impacto
-* Estrategia de migración progresiva
-* Diseño orientado a operación y continuidad
+* Alineación negocio-tecnología
+* Gestión de riesgo
+* Decisiones basadas en impacto
+* Estrategia progresiva
 
 ---
 
 ## 🚀 Evolución
 
-* Automatización de despliegues (CI/CD)
+* CI/CD (conceptual)
 * Observabilidad avanzada
-* Analítica operativa para mejora continua
-* Evolución progresiva hacia arquitecturas más escalables
-
+* Analítica operativa
+* Escalabilidad progresiva
