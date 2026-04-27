@@ -127,7 +127,7 @@ La incorporación de monitoreo y control financiero permite:
 
 Vista orientada a negocio para monitorear disponibilidad, incidentes y estabilidad general del servicio.
 
-![Dashboard Ejecutivo](diagrams/dashboard_ejecutivo.png)
+![Dashboard Ejecutivo](../diagrams/dashboard_ejecutivo.png)
 
 ---
 
