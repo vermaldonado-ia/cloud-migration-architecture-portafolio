@@ -82,7 +82,7 @@ Se definió una estrategia de migración cloud progresiva, priorizando clientes 
 
 ### 🔹 TO-BE
 
-👉 Ver detalle completo: [Arquitectura Objetivo](docs/03_arquitectura_objetivo_to_be.md)
+👉 Ver detalle completo: [Arquitectura Objetivo](docs/arquitectura_objetivo.md)
 
 * Migración a AWS
 * Arquitectura híbrida
