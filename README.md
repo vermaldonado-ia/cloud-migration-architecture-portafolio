@@ -182,3 +182,7 @@ Responsable de:
 * Observabilidad avanzada
 * Analítica operativa
 * Escalabilidad progresiva
+
+---
+
+Ver ejemplos reales en: docs/riesgos.md
