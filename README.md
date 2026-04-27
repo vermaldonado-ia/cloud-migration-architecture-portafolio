@@ -70,7 +70,7 @@ Se definió una estrategia de migración cloud progresiva, priorizando clientes 
 
 ### 🔹 AS-IS
 
-👉 Ver detalle completo: [Arquitectura Actual](docs/02_arquitectura_actual_as_is.md)
+👉 Ver detalle completo: [Arquitectura Actual](docs/arquitectura_actual.md)
 
 * Datacenter local
 * Máquina virtual por cliente
